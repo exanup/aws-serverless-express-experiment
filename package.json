@@ -4,10 +4,10 @@
   "description": "Example application for running a Node Express app on AWS Lambda using Amazon API Gateway.",
   "main": "lambda.js",
   "config": {
-    "s3BucketName": "lambda-test-anup",
-    "region": "us-east-1",
+    "s3BucketName": "test2-express-app-lambda",
+    "region": "us-east-2",
     "cloudFormationStackName": "AwsServerlessExpressStack",
-    "functionName": "AwsServerlessExpressFunction",
+    "functionName": "AwsServerlessExpressFunctionExpress",
     "accountId": "157369949994"
   },
   "scripts": {
